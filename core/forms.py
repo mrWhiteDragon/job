@@ -28,7 +28,6 @@ class VacancyCommentForm(forms.ModelForm):
         widgets = {
             'text': forms.Textarea(attrs={
                 'rows': 5,
-                'label': 'Текст',
                 'class': 'form-control'
             }),
         }
